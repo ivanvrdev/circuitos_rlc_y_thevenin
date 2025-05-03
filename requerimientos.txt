@@ -1,0 +1,38 @@
+rlc:
+- calcular intensidad total (ingresa el valor del voltaje, el valor de cada resitencia y la distribución(paralelo/serie))
+    - Ley de Ohm: Voltaje de la fuente / Resistencia total
+        - Calcular la resistencia total
+            - Calculo de resistencias en paralelo (1/((1/R) + ...)
+            - Calculo de resistencia en serie (Sumatoria de las resistencia)
+- calcular imperancia
+    - Calcular Reactancia (Ohm)
+        - Capacitiva (abrev. XC)
+            - 1/(2 pi * Frecuencia del circuito * C(valor del capacitor)) 
+        - Inductiva (abrev. XL)
+            - 2 pi * Frecuencia del circuito (se ingresa el valor en Hz) * L (se ingresa el valor del inductor)
+        - imperancia
+            // Valor de resistencia = parte real
+            // Capacitor en faradios = parte imaginaria
+            // Bobina(inductor) en Henrio = parte imaginaria
+            - 
+- calcular caída de voltaje de cada componente
+
+thevenin
+- resistencia total
+- voltaje total
+
+// Inestigar Números complejos
+
+Tareas:
+- Armar una herramienta gráfica para diagramar los circuitos
+    - Debe permitir agregar n cantidad de nodos
+    - Debe permitir agregar n cantidad de componentes por nodo (salvo la fuente)
+    - Pueden ir en cualquier lugar los componentes
+    - Debe guardar los valores para cada componente
+    - Componetes:
+        - fuente (V)
+        - Resistencia (Ohm)
+        - Capacitor (Faradios)
+        - Inductor(Bobina)(Henrio)
+
+// Ejemplo: 
